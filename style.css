@@ -1,0 +1,80 @@
+.n-btn{
+    padding: 10px 35px;
+    background:#21b573;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    padding: 0px 44px;
+    font-weight: bold;
+}
+.navbar{
+    background: #f0fff0 !important;
+}
+.navbar img{
+    width: 150px;
+    padding: 10px 0;
+}
+.header{
+    background: #f0fff0;
+    background-size: cover;
+}
+.header .question{
+    color: #fd511a;
+}
+.header h1{
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+p{
+    color: #6c6b6b;
+    font-size: 20px;
+}
+.header .n-btn{
+    margin-top: 20px;
+}
+.header span{
+    color: #21b573;
+}
+.icon img{
+    width: 60px;
+}
+.icon-text:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+.courses .main-head{
+    text-align: center;
+    font-weight: bold;
+}
+.card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 10px gainsboro;
+    transition: 1s;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card-footer{
+    border: none;
+}
+.card-footer img{
+    width: 20px;
+}
+.testy img{
+    width: 100px;
+}
+@media screen and (max-width:770px){
+    .icon-text{
+        margin-top: 30px;
+    }
+    .icon-text:hover{
+        box-shadow: none;
+    }
+}
+.footer{
+    background: #282531;
+}
